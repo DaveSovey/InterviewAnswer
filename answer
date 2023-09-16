@@ -1,0 +1,27 @@
+public class MyClass {
+
+public static void main(String[] args) {
+		 int Number1 = x;
+		 int Number2 = y;
+		 int Number3 = z;
+		 
+		 
+		 String answer = "";
+		    if(Number1 + Number2 == Number3){
+		        answer += "+";
+		    }
+		    if(Number1 - Number2 == Number3){
+		        answer += "-";
+		    }
+		    if(Number1 * Number2 == Number3){
+		        answer += "*";
+		    }
+		    if(Number1 / Number2 == Number3){
+		        answer += "/";
+		    }
+		    if(answer.equals("")){
+		        answer += "None";
+		    }
+		  System.out.println(answer);
+	}
+	}
